@@ -27,7 +27,7 @@ end
 
 function CostumeSwap()
     if World == 0x0E then --Halloween town
-        WriteString(Obj0+0x1750,'P_EX030C_NM\0')
+        WriteString(Obj0+0x1750,'P_EX030C\0')
     else --Revert costume changes
         WriteString(Obj0+0x1750,'P_EX030\0')
     end

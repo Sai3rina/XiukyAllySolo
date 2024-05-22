@@ -29,7 +29,7 @@ function CostumeSwap()
     if World == 0x07 then --Agrabah
         WriteString(Obj0+0x8D10,'P_EX030C\0')
     elseif World == 0x10 then --Port Royal
-        WriteString(Obj0+0x8D10,'P_EX030C_NM\0')
+        WriteString(Obj0+0x8D10,'P_EX030C\0')
     elseif World == 0x02 then --Twilight Town
         WriteString(Obj0+0x8D10,'P_EX030C\0')
     elseif World == 0x04 then --Hollow bastion
@@ -51,10 +51,10 @@ function CostumeSwap()
     elseif World == 0x0d then --Timelaess River
         WriteString(Obj0+0x8D10,'P_WI030C\0')
     elseif World == 0x11 then --SpaceParanoids
-        WriteString(Obj0+0x8D10,'P_EX030C_TR\0')
+        WriteString(Obj0+0x8D10,'P_EX030C\0')
     elseif World == 0x0a then --Pride Lands
         WriteString(Obj0+0x8D10,'P_EX030C\0')
     else --Revert costume changes
-        WriteString(Obj0+0x8D10,'P_EX030_NM\0')
+        WriteString(Obj0+0x8D10,'P_EX030\0')
     end
 end
